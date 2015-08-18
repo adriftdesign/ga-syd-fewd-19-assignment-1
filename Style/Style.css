@@ -1,0 +1,51 @@
+<style>
+    body {
+        font-family: helvetica;
+        text-align: center;
+        background: img src="Img/Cradle%20Mountain.jpg";
+        background-size: cover;
+        background-position: center;
+        background-color: ;
+
+        font-family: helvetica;
+        font-size: 24px;
+        text-align: center;
+        color: darkgrey;
+    }
+
+        p {
+            font-family: helvetica;
+            font-size: 18px;
+            text-align: center;
+        }
+
+        nav {
+            text-align: center;
+        }
+
+        h1 {
+            font-family: helvetica;
+            font-size: 36px;
+            color: black;
+            text-align: center;
+        }
+        
+        h2 {
+            font-family: helvetica;
+            font-size: 24px;
+            color: black;
+            text-align: center;
+        }
+        
+        a {
+            font-family: helvetica;
+            font-size: 14px;
+            color: black;
+            text-align: center;
+        }
+        
+    input[type="submit"] {
+        background: green;
+        color: white;
+    }
+</style>
