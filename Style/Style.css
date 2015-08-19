@@ -1,16 +1,18 @@
 <style>
+
+        background-color: lightcyan;
+    
     body {
-        font-family: helvetica;
         text-align: center;
         background: img src="Img/Cradle%20Mountain.jpg";
         background-size: cover;
         background-position: center;
-        background-color: ;
+
 
         font-family: helvetica;
         font-size: 24px;
         text-align: center;
-        color: darkgrey;
+        color: bl;
     }
 
         p {
@@ -43,9 +45,23 @@
             color: black;
             text-align: center;
         }
+
+        ul {
+            font-family: helvetica;
+            font-size: 18px;
+            text-align: left;
+        }
         
-    input[type="submit"] {
-        background: green;
-        color: white;
+        input {
+            position: fixed;
+            text-align: center;
+            border: 1px;
+            padding: 10px;
+            font-size: 14px;
+        }
+
+        input[type="submit"] {
+            background: green;
+            color: white;
     }
 </style>
