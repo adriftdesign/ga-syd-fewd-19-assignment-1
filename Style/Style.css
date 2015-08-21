@@ -1,18 +1,15 @@
 <style>
 
-        background-color: lightcyan;
+background-color { lightcyan}
     
     body {
         text-align: center;
-        background: img src="Img/Cradle%20Mountain.jpg";
         background-size: cover;
         background-position: center;
-
-
+        align-items: center;
         font-family: helvetica;
         font-size: 24px;
         text-align: center;
-        color: bl;
     }
 
         p {
@@ -39,6 +36,13 @@
             text-align: center;
         }
         
+        h3 {
+            font-family: helvetica;
+            font-size: 18px;
+            color: black;
+            text-align: center;
+        }
+
         a {
             font-family: helvetica;
             font-size: 14px;
