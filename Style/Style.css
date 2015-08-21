@@ -1,8 +1,11 @@
 <style>
 
-background-color { lightcyan}
+background-color { 
+    color: lightcyan;
+    }
     
     body {
+        background-color: lightblue;
         text-align: center;
         background-size: cover;
         background-position: center;
@@ -10,20 +13,10 @@ background-color { lightcyan}
         font-family: helvetica;
         font-size: 24px;
         text-align: center;
-    }
-
-        p {
-            font-family: helvetica;
-            font-size: 18px;
-            text-align: center;
-        }
-
-        nav {
-            text-align: center;
         }
 
         h1 {
-            font-family: helvetica;
+            font-family: Helvetica;
             font-size: 36px;
             color: black;
             text-align: center;
@@ -43,6 +36,23 @@ background-color { lightcyan}
             text-align: center;
         }
 
+        h4 {
+            font-family: helvetica;
+            font-size: 18px;
+            color: black;
+            text-align: left;
+        }
+
+        p {
+            font-family: helvetica;
+            font-size: 14px;
+            text-align: left;
+        }
+
+        nav {
+            text-align: center;
+        }
+
         a {
             font-family: helvetica;
             font-size: 14px;
@@ -50,9 +60,9 @@ background-color { lightcyan}
             text-align: center;
         }
 
-        ul {
+        ul, ol {
             font-family: helvetica;
-            font-size: 18px;
+            font-size: 14px;
             text-align: left;
         }
         
@@ -65,6 +75,7 @@ background-color { lightcyan}
         }
 
         input[type="submit"] {
+            align-items: center;
             background: green;
             color: white;
     }
